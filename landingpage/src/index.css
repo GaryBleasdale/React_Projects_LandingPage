@@ -38,22 +38,6 @@ a{
   cursor: pointer;
 }
 
-.hamburger-menu{
-  display:none;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width:100%;
-  padding-right:15px;
-}
-
-@media only screen and (max-width:450px) {
-  .hamburger-menu{
-   display:flex;
-}
-  .navbar{
-    display:none;
-  }
-}
 
 .service-listing{
   display:flex;
@@ -72,4 +56,19 @@ input::placeholder{
   color:white;
   text-align: center;
   font-size:14px;
+}
+
+@media only screen and (max-width:450px) {
+  .service-listing{
+    flex-direction:column;
+  }
+
+  .navbar{
+    padding: 0px 0px;
+  }
+
+  li {
+    padding: 0px 25px;
+  }
+
 }

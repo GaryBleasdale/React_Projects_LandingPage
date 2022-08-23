@@ -18,9 +18,6 @@ export default function Hero() {
             <li><a href='www.bleasdale.dev'>Our Services</a></li>
             <li><a href='www.bleasdale.dev'>Subscribe</a></li>
           </ul>
-          <div className='hamburger-menu'>
-            <img src='../public/hamburger.png' alt='' style={{height:'30px', width:'30px'}}/>
-          </div>
         <div className="hero-header">
           <h2>WE DO WEBSITES RIGHT</h2>
         </div>
